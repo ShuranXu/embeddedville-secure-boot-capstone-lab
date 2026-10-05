@@ -1,0 +1,17 @@
+{
+  "algorithm": "ECDSA-P256 with SHA-256",
+  "curve": "secp256r1",
+  "signatureEncoding": "IEEE P1363 raw r||s, 64 bytes",
+  "canonicalReleaseStatement": "ASCII EVSB1 || image_version uint32 big-endian || image_size uint32 big-endian || image_sha256",
+  "messageUtf8": "EmbeddedVille Secure Boot training image v1\n",
+  "messageHex": "456d62656464656456696c6c652053656375726520426f6f7420747261696e696e6720696d6167652076310a",
+  "imageVersion": 7,
+  "imageSize": 44,
+  "imageSha256": "b0e46e80b4bf4a3b890af734611772efdf6f366186ccbc65d14bf30feacbe31f",
+  "releaseStatementHex": "4556534231000000070000002cb0e46e80b4bf4a3b890af734611772efdf6f366186ccbc65d14bf30feacbe31f",
+  "releaseStatementSha256": "55ebc98ea3e73123a32939ed08804358ab447dd660b47155f1aeaebaf94dbe6c",
+  "publicKeySec1": "04cea070ffb3d9b212cde545cc461effe5c8e6a5661ed656ced27c843f6a10f0a9d65e48ae26df54f5e2e21c98f242cbd629ce2511e01fe519db332c721e93fe2b",
+  "signatureRaw": "0da212f95d812b69afc1661c3520be6ef8b9b67e4177c7d3b981c8f47684c3608cd92e0fc51b5c2d44063c6ef06e5b0ef7867bf92f2a41144abc667255b289bd",
+  "privateKeyIncluded": false,
+  "fixtureUse": "Training and reproducible verification only; not a production trust anchor."
+}
